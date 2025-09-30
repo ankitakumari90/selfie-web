@@ -11,6 +11,7 @@ import GetInTouchSimple from './components/GrtInTouch';
 import FooterSimple from './components/Footer';
 import OurIconsFullPageSimple from './components/OurIcon';
 import CelebrityWorksSimple from './components/Celebrittsimple';
+import AmbesdorPage from './components/SelfieandAmbesdor';
 
 
 // TypeScript interfaces
@@ -207,9 +208,9 @@ export default function SelfieHomepage(): JSX.Element {
       {/* Notification Toast */}
       {showNotification && (
         <div className="fixed top-4 right-4 z-50 bg-gradient-to-r from-yellow-400 to-amber-400 text-black px-6 py-3 rounded-lg shadow-lg animate-bounce">
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-2">
             <span>✨</span>
-            <span className="font-semibold">{showNotification}</span>
+            <span className="font-rb">{showNotification}</span>
           </div>
         </div>
       )}
@@ -561,6 +562,7 @@ export default function SelfieHomepage(): JSX.Element {
       </section>
      
      <SelfieArtPage/>
+     <AmbesdorPage />
       <CelebrityPage />
       <OurIconsFullPageSimple/>
       <FanMomentSimple/>
