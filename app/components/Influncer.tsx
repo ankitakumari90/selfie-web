@@ -90,7 +90,7 @@ export default function InfluencerPage(): JSX.Element {
             </p>
           </div>
 
-          {/* RIGHT SIDE - Image */}
+          
           {/* Right Side (Image) */}
           <div className="flex-1 flex items-center justify-centerp-10">
             <Image
